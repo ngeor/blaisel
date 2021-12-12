@@ -1,8 +1,7 @@
 program Hello;
 
-uses Common, Private;
+uses Calc;
 
 begin
     WriteLn('Hello, world!');
-    WriteLn('1 + 1 = ', Add(1, 1));
 end.
