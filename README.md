@@ -1,7 +1,8 @@
 # blaisel
+
 Bazel rules for Pascal
 
-Requirements:
+## Requirements
 
 Free Pascal needs to be installed. It is expected to be on a specific path:
 
@@ -17,7 +18,11 @@ Tested with:
 - fpc 3.0.4
 - Linux (via Vagrant), Windows
 
+## Examples
+
 See the examples folder for examples.
+
+The C example does not work on Windows.
 
 <!-- Generated with Stardoc: http://skydoc.bazel.build -->
 

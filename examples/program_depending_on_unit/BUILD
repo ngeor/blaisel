@@ -1,4 +1,4 @@
-load("//:rules.bzl", "fpc_unit", "fpc_binary")
+load("//:rules.bzl", "fpc_binary", "fpc_unit")
 
 fpc_unit(
     name = "calc",
