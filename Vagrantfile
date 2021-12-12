@@ -85,6 +85,14 @@ Vagrant.configure("2") do |config|
     apt-get install -y fpc
   SHELL
 
+  # Buldifier
+  config.vm.provision "shell", inline: <<-SHELL
+    rm -f /usr/local/bin/buildifier
+    curl -s -L -o /usr/local/bin/buildifier https://github.com/bazelbuild/buildtools/releases/latest/download/buildifier-linux-amd64
+    chown root:root /usr/local/bin/buildifier
+    chmod 555 /usr/local/bin/buildifier
+  SHELL
+
   # Warm up bazel
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
     cd /vagrant && bazel build //...
