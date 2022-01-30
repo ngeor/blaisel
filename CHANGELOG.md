@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+### Features
+
+- Added example using Pascal code from cc_binary rule
+
+### Miscellaneous Tasks
+
+- Updated copyright year in LICENSE
+
 ## [0.1.0] - 2021-12-12
 
 ### Features
