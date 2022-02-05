@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [0.2.0] - 2022-02-05
 
 ### Features
 
@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 
 - Updated copyright year in LICENSE
 - Using cliff.toml from instarepo
+- Upgrade to Bazel 5
 
 ## [0.1.0] - 2021-12-12
 
