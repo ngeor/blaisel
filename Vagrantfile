@@ -75,8 +75,8 @@ Vagrant.configure("2") do |config|
     curl -fsSL https://bazel.build/bazel-release.pub.gpg | gpg --dearmor > /etc/apt/trusted.gpg.d/bazel.gpg
     echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | tee /etc/apt/sources.list.d/bazel.list
     apt-get update
-    apt-get install -y bazel-4.2.1
-    ln -f -s /usr/bin/bazel-4.2.1 /usr/bin/bazel
+    apt-get install -y bazel-5.0.0
+    ln -f -s /usr/bin/bazel-5.0.0 /usr/bin/bazel
   SHELL
 
   # Free Pascal
