@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2022-11-07
+
+### Miscellaneous Tasks
+
+- Update dependency io_bazel_stardoc to v0.5.1
+- Add CI workflow (#9)
+- Update dependency bazel to v5.2.0
+- Update dependency io_bazel_stardoc to v0.5.2
+- Update dependency bazel to v5.3.0
+- Update dependency bazel to v5.3.1
+- Upgrade to Bazel 5.3.2 and fpc 3.2.2
+
 ## [0.2.0] - 2022-02-05
 
 ### Features
