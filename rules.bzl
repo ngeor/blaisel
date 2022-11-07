@@ -27,7 +27,7 @@ def _fpc_common_impl(ctx, output_type):
     executable = ""
     if ctx.target_platform_has_constraint(ctx.attr._windows_constraint[platform_common.ConstraintValueInfo]):
         platform = "windows"
-        executable = "C:\\lazarus\\fpc\\3.0.4\\bin\\x86_64-win64\\fpc.exe"
+        executable = "C:\\opt\\lazarus\\fpc\\3.2.2\\bin\\x86_64-win64\\fpc.exe"
     elif ctx.target_platform_has_constraint(ctx.attr._linux_constraint[platform_common.ConstraintValueInfo]):
         platform = "linux"
         executable = "/usr/bin/fpc"

@@ -6,7 +6,7 @@ Bazel rules for Pascal
 
 Free Pascal needs to be installed. It is expected to be on a specific path:
 
-- `C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe` for Windows
+- `C:\opt\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe` for Windows
 - `/usr/local/bin/` for Mac
 - `/usr/bin/` for Linux
 
@@ -14,8 +14,8 @@ Additionally, for Linux the `ld` binary needs to be installed in `/usr/bin/`.
 
 Tested with:
 
-- Bazel 4.2.1
-- fpc 3.0.4
+- Bazel 5.3.2
+- fpc 3.2.2
 - Linux (via Vagrant), Windows
 
 ## Examples
@@ -88,5 +88,3 @@ Creates a unit with the FPC compiler
 | <a id="fpc_unit-name"></a>name |  A unique name for this target.   | <a href="https://bazel.build/docs/build-ref.html#name">Name</a> | required |  |
 | <a id="fpc_unit-deps"></a>deps |  -   | <a href="https://bazel.build/docs/build-ref.html#labels">List of labels</a> | optional | [] |
 | <a id="fpc_unit-src"></a>src |  -   | <a href="https://bazel.build/docs/build-ref.html#labels">Label</a> | required |  |
-
-
