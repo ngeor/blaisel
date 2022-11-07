@@ -24,6 +24,23 @@ See the examples folder for examples.
 
 The C example does not work on Windows.
 
+## Usage
+
+```py
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+    name = "blaisel",
+    sha256 = "86c53e1ca8f673a8be69925090da6cf1d328b6af4c568d1c1bfc8e926dd1220e",
+    urls = [
+        "https://github.com/ngeor/blaisel/archive/refs/tags/v0.3.0.zip"
+    ],
+    strip_prefix = "blaisel-0.3.0"
+)
+```
+
+## Rules documentation
+
 <!-- Generated with Stardoc: http://skydoc.bazel.build -->
 
 
